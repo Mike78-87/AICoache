@@ -49,13 +49,14 @@
 
 ## Структура репозитория
 
+.
 ├── .github/
-│ └── workflows/
-│ └── python-tests.yml # Конфигурация GitHub Actions
-├── humidifier.py # Основная функция solve()
-├── test_humidifier.py # Модульные тесты (unittest)
-├── requirements.txt # Зависимости (пустой)
-└── README.md # Этот файл
+│   └── workflows/
+│       └── python-tests.yml      # Конфигурация GitHub Actions
+├── humidifier.py                  # Основная функция solve()
+├── test_humidifier.py             # Модульные тесты (unittest)
+├── requirements.txt               # Зависимости (пустой)
+└── README.md                      # Этот файл
 
 ---
 

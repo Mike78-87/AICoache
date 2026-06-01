@@ -49,14 +49,13 @@
 
 ## Структура репозитория
 
-.
-├── .github/
-│   └── workflows/
-│       └── python-tests.yml      # Конфигурация GitHub Actions
-├── humidifier.py                  # Основная функция solve()
-├── test_humidifier.py             # Модульные тесты (unittest)
-├── requirements.txt               # Зависимости (пустой)
-└── README.md                      # Этот файл
+.github/
+    workflows/
+        python-tests.yml   # Конфигурация GitHub Actions
+humidifier.py              # Основная функция solve()
+test_humidifier.py         # Модульные тесты (unittest)
+requirements.txt           # Зависимости (пустой)
+README.md                  # Этот файл
 
 ---
 
@@ -70,3 +69,4 @@
 В корневой папке проекта выполните:
 ```bash
 python -m unittest test_humidifier.py
+
